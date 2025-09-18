@@ -1,0 +1,605 @@
+.frame {
+  width: 1920px;
+  height: 60px;
+  background-color: var(--bgdefault);
+}
+
+.frame .overlap {
+  position: relative;
+  height: 50px;
+  top: 10px;
+}
+
+.frame .div {
+  align-items: center;
+  gap: 16px;
+  top: 0;
+  left: 1577px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.frame .icon-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .button {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 99px;
+  background-color: var(--control-clearbg);
+}
+
+.frame .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  left: 4px;
+}
+
+.frame .icon-question-wrapper {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: var(--control-clearbg);
+}
+
+.frame .s-onlyicon-filled {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  height: 32px;
+}
+
+.frame .bg {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame .default-left {
+  margin-left: -697.00px;
+  position: relative;
+  width: 16px;
+  height: 32px;
+  margin-bottom: -837.00px;
+}
+
+.frame .default-right {
+  margin-left: -681.00px;
+  position: relative;
+  width: 16px;
+  height: 32px;
+  margin-bottom: -837.00px;
+}
+
+.frame .headerlogin {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .user {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 16px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 99px;
+  background-color: var(--control-clearbg);
+}
+
+.frame .user-avatar {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.frame .avatar {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: 4px;
+  left: 4px;
+  border-radius: 16px;
+  background-image: url(./img/rectangle-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--typoprimary);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.frame .div-2 {
+  align-items: flex-start;
+  gap: 4px;
+  top: 8px;
+  left: 24px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--typoprimary);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 38px;
+  top: 12px;
+  left: 0;
+}
+
+.frame .line {
+  position: absolute;
+  width: 1920px;
+  height: 1px;
+  top: 37px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  gap: 32px;
+  top: 0;
+  left: 251px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.frame .content-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--typoprimary);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  white-space: nowrap;
+}
+
+.frame .rectangle {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 2px;
+}
+
+.frame .element {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--typosecondary);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  white-space: nowrap;
+}
+
+.box {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.box .group {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/ellipse-2-18.svg);
+  background-size: 100% 100%;
+}
+
+.box .ellipse {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 0;
+  left: 12px;
+}
+
+.screen {
+  position: relative;
+  width: 1440px;
+  height: 384px;
+  background-color: var(--bgstripe);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  top: 31px;
+  left: 32px;
+  font-family: var(--2xl-font-family);
+  font-weight: var(--2xl-font-weight);
+  color: var(--typoprimary);
+  font-size: var(--2xl-font-size);
+  letter-spacing: var(--2xl-letter-spacing);
+  line-height: var(--2xl-line-height);
+  white-space: nowrap;
+  font-style: var(--2xl-font-style);
+}
+
+.screen .button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 32px;
+  left: 1336px;
+  background-color: var(--control-ghostbg);
+  border-radius: 99px;
+}
+
+.screen .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  left: 4px;
+}
+
+.screen .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  padding: 0px 16px;
+  position: absolute;
+  top: 32px;
+  left: 339px;
+  background-color: var(--control-ghostbg);
+  border-radius: 4px;
+}
+
+.screen .div {
+  color: var(--control-ghosttypo);
+  font-size: 14px;
+  line-height: 32px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.screen .icon-forward-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 32px;
+  left: 1376px;
+  background-color: var(--control-ghostbg);
+  border-radius: 99px;
+}
+
+.screen .frame {
+  position: absolute;
+  width: 464px;
+  height: 260px;
+  top: 92px;
+  left: 32px;
+  background-color: var(--bgdefault);
+  border-radius: 8px;
+  box-shadow: var(--shadow-group);
+}
+
+.screen .ponts {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 204px;
+  left: 408px;
+  background-color: var(--bgsuccess);
+  border-radius: 12px;
+}
+
+.screen .icon {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.screen .img-2 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.screen .p {
+  position: absolute;
+  width: 400px;
+  top: 107px;
+  left: 32px;
+  color: var(--typoprimary);
+  font-size: var(--s-font-size);
+  line-height: var(--s-line-height);
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  letter-spacing: var(--s-letter-spacing);
+  font-style: var(--s-font-style);
+}
+
+.screen .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 76px;
+  left: 32px;
+}
+
+.screen .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  color: var(--typosecondary);
+  font-size: var(--s-font-size);
+  line-height: var(--s-line-height);
+  white-space: nowrap;
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  letter-spacing: var(--s-letter-spacing);
+  font-style: var(--s-font-style);
+}
+
+.screen .ellipse {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  background-color: var(--typosecondary);
+  border-radius: 2px;
+}
+
+.screen .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 0px 20px 0px 16px;
+  position: absolute;
+  top: 188px;
+  left: 32px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--control-secondarybg-border);
+}
+
+.screen .text-wrapper-3 {
+  color: var(--control-secondarytypo);
+  font-size: 16px;
+  line-height: 40px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.screen .frame-3 {
+  position: absolute;
+  width: 464px;
+  height: 260px;
+  top: 92px;
+  left: 520px;
+  background-color: var(--bgdefault);
+  border-radius: 8px;
+  box-shadow: var(--shadow-group);
+}
+
+.screen .text-wrapper-4 {
+  position: absolute;
+  top: 197px;
+  left: 310px;
+  color: var(--typoprimary);
+  font-size: var(--s-font-size);
+  text-align: center;
+  line-height: var(--s-line-height);
+  white-space: nowrap;
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  letter-spacing: var(--s-letter-spacing);
+  font-style: var(--s-font-style);
+}
+
+.screen .text-wrapper-5 {
+  position: absolute;
+  top: 197px;
+  left: 345px;
+  color: var(--typosecondary);
+  font-size: var(--s-font-size);
+  text-align: center;
+  line-height: var(--s-line-height);
+  white-space: nowrap;
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  letter-spacing: var(--s-letter-spacing);
+  font-style: var(--s-font-style);
+}
+
+.screen .group {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 196px;
+  left: 408px;
+  background-image: url(./img/ellipse-2-18.svg);
+  background-size: 100% 100%;
+}
+
+.screen .ellipse-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.screen .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 0px 20px;
+  position: absolute;
+  top: 188px;
+  left: 32px;
+  background-color: var(--control-primarybg);
+  border-radius: 4px;
+}
+
+.screen .text-wrapper-6 {
+  color: var(--control-primarytypo);
+  font-size: 16px;
+  line-height: 40px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.screen .frame-4 {
+  position: absolute;
+  width: 464px;
+  height: 260px;
+  top: 92px;
+  left: 1008px;
+  background-color: var(--bgdefault);
+  border-radius: 8px;
+  box-shadow: var(--shadow-group);
+}
+
+.screen .text-wrapper-7 {
+  position: absolute;
+  top: 197px;
+  left: 355px;
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  color: var(--typoprimary);
+  font-size: var(--s-font-size);
+  text-align: center;
+  letter-spacing: var(--s-letter-spacing);
+  line-height: var(--s-line-height);
+  white-space: nowrap;
+  font-style: var(--s-font-style);
+}
+
+.screen .text-wrapper-8 {
+  position: absolute;
+  top: 197px;
+  left: 379px;
+  color: var(--typosecondary);
+  font-size: var(--s-font-size);
+  text-align: center;
+  line-height: var(--s-line-height);
+  white-space: nowrap;
+  font-family: var(--s-font-family);
+  font-weight: var(--s-font-weight);
+  letter-spacing: var(--s-letter-spacing);
+  font-style: var(--s-font-style);
+}
+
+.box {
+  width: 154px;
+  height: 154px;
+}
+
+.box .ellipse {
+  position: fixed;
+  width: 170px;
+  height: 170px;
+  top: 0;
+  left: 0;
+}
+
